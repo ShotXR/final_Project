@@ -1,0 +1,50 @@
+.headCont{
+    max-width: 1053px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 40px;
+    display: flex;
+    margin-left: 110px;
+}
+.logo{
+   width: 93px;
+   height: 72px;
+   margin-right: 20px;
+}
+.logodiv{
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: #72249C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Zen Antique;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+li{
+    margin: 0px 10px;
+}
+a{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.activePage{
+    color: #735e5e;
+}
+.li{
+    margin-right: 230px;
+}
