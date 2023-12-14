@@ -1,3 +1,6 @@
+body{
+    background: #f3f9f9;
+}
 .headCont{
     max-width: 1053px;
     width: 100%;
@@ -47,4 +50,26 @@ a{
 }
 .li{
     margin-right: 230px;
+}
+.footCont{
+    padding-top: 100px;
+    width: 1440px;
+    height: 320px;
+    background-color: #d9bde7;;
+    flex-shrink: 0;
+}
+.logodiv2{
+    margin-left: 139px;
+    display: flex;
+    align-items: center;
+}
+.gazo{
+    margin-top: 15px;
+    margin-left: 129px;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
