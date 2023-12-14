@@ -28,7 +28,7 @@ body{
     line-height: normal;
 }
 
-ul{
+.headerUL{
     display: flex;
     align-items: center;
     margin-top: 29px;
@@ -51,25 +51,30 @@ a{
 .li{
     margin-right: 230px;
 }
+i{
+  margin-right:20px ;
+}
 .footCont{
     padding-top: 100px;
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     height: 320px;
     background-color: #d9bde7;;
     flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 .logodiv2{
     margin-left: 139px;
     display: flex;
     align-items: center;
 }
-.gazo{
-    margin-top: 15px;
-    margin-left: 129px;
-    color: #000;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+.footerUL{
+ align-content: space-around;
+}
+.tbclog{
+    width: 120px;
+    height: 80px;
+
 }
