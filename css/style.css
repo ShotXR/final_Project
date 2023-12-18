@@ -74,7 +74,70 @@ i{
  align-content: space-around;
 }
 .tbclog{
-    width: 120px;
-    height: 80px;
+    width: 130px;
+    height: 89px;
 
+}
+.sec1-cont{
+    max-width: 1400px;
+    width: 100%;
+    height: 462px;
+    background-image: url("../pictures/game\ zone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec2-cont{
+    margin-bottom: 815px;
+    margin-left: 110px;
+    margin: 0 auto;
+    width: 1320px;
+    height: 489px;
+    border-radius: 32px;
+    border: 1px solid #1EADE9;
+    background: #F1E9F5;
+    
+}
+.flexdiv{
+    display: flex;
+    justify-content: flex-start;
+}
+.cont2Satauri{
+    margin-left: 40px;
+    margin-top: 25px;
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.popularGameDiv{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.popGame{
+    margin-right: 21px;
+    width: 400px;
+    height: 294px;
+    border-radius: 10px;
+}
+.nameDiv{
+    display: flex;
+    justify-content: space-around;
+} 
+.GameName{
+    color: #000;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.playerCount{
+    color: #72249C;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
