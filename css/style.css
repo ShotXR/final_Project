@@ -1,5 +1,8 @@
 body{
     background: #f3f9f9;
+    background-image: url("../pictures/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .headCont{
     max-width: 1053px;
@@ -82,7 +85,7 @@ i{
     max-width: 1400px;
     width: 100%;
     height: 462px;
-    background-image: url("../pictures/game\ zone.jpg");
+    /* background-image: url("../pictures/game\ zone.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -141,6 +144,15 @@ i{
     font-weight: 400;
     line-height: normal;
 }
+.section1{
+    
+    margin: 0 auto;
+    background-image: url("../pictures/game\ zone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 64px;
+}
 .section{
     margin-top: 80px;
     margin-bottom: 64px;
@@ -152,4 +164,158 @@ i{
     font-style: normal;
     font-weight: 200;
     line-height: normal;
+}
+.AboutCont{
+ margin:0 auto;
+ margin-top: 40px;
+ margin-bottom: 40px;
+ background-color: rgb(170, 163, 163);
+ border-radius: 15%;
+}
+
+.aboutsat{
+    font-size: 66px;
+    display: flex;
+    justify-content: center;
+}
+.aboutsat{
+    font-size: 66px;
+    color: #4E6FAE;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.aboutpic{
+    margin: 10px;
+    width: 480px ;
+    height: 280px ;
+}
+.aboutP{
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    font-style: normal;
+}
+.aboutDiv{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around
+}
+.aboutDiv2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutH1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.gaertianeba{
+    display: flex;
+}
+.h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* serevices */
+
+.sectionCont{
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center; */
+
+}
+.servicesSatauri{
+    color: #4E6FAE;
+    font-family: Helvetica Neue;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sectionDiv{
+    display: flex;
+}
+.sectionH2{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button{
+    width: 100px;
+    height: 60px;
+    background-color: #7ac4c3;
+    border-radius: 50px;
+}
+
+.serviceCont{
+    width: 800px;
+    height: 540px;
+}
+/* contact */
+.contactSection{
+    background-color: #E7E7E7;;
+}
+.mapCont{
+    margin: 0 auto;
+    margin-top: 31px;
+    background-color: #E7E7E7;;
+    /* max-width: 1660px; */
+    width: 100%;
+    height: 735px;
+    padding-top: 93px;
+    padding-left: 162px;
+    padding-right: 40px;
+}
+.saerto{
+    display: inline-block;
+}
+.contactSatauri{
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    color: #4E6FAE;
+    font-family: Helvetica Neue;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 40px;
+    margin-bottom: 27px; 
+}
+
+iframe{
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    width: 944px;
+    height: 549px; 
+    
+}
+
+.misamarti{
+    display: inline-block;
+    color: #7E8898;
+    font-size: 20px;
+}
+
+.qucha{   
+    display: inline-block;
+    font-size: 20px;
+    color: #3F4145;
+}
+
+.bolo{
+    margin-top: 23px;
+    margin-bottom: 11px;
 }

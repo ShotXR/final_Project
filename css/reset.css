@@ -52,3 +52,14 @@ a{
 *{
 	box-sizing: border-box;
 }
+footer{
+	background-color: #d9bde7;;
+}
+section{
+	margin:0 auto;
+}
+body{
+	background-image: url("../pictures/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
