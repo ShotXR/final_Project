@@ -1,321 +1,328 @@
-body{
-    background: #f3f9f9;
-    background-image: url("../pictures/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background: #f3f9f9;
+  background-image: url("../pictures/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.headCont{
-    max-width: 1053px;
-    width: 100%;
-    margin: 0px auto;
-    margin-top: 40px;
-    display: flex;
-    margin-left: 110px;
+.headCont {
+  max-width: 1053px;
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 40px;
+  display: flex;
+  margin-left: 110px;
 }
-.logo{
-   width: 93px;
-   height: 72px;
-   margin-right: 20px;
+.logo {
+  width: 93px;
+  height: 72px;
+  margin-right: 20px;
 }
-.logodiv{
-    display: flex;
-    align-items: center;
+.logodiv {
+  display: flex;
+  align-items: center;
 }
-.name{
-    color: #72249C;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Zen Antique;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.headerUL{
-    display: flex;
-    align-items: center;
-    margin-top: 29px;
-    margin-left: 20px;
-}
-li{
-    margin: 0px 10px;
-}
-a{
-    color: #000;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-}
-.activePage{
-    color: #735e5e;
-}
-.li{
-    margin-right: 230px;
-}
-i{
-  margin-right:20px ;
-}
-.footCont{
-    padding-top: 100px;
-    max-width: 1440px;
-    width: 100%;
-    height: 320px;
-    background-color: #d9bde7;;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-.logodiv2{
-    margin-left: 139px;
-    display: flex;
-    align-items: center;
-}
-.footerUL{
- align-content: space-around;
-}
-.tbclog{
-    width: 130px;
-    height: 89px;
-
-}
-.sec1-cont{
-    max-width: 1400px;
-    width: 100%;
-    height: 462px;
-    /* background-image: url("../pictures/game\ zone.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.sec2-cont{
-    margin-bottom: 815px;
-    margin-left: 110px;
-    margin: 0 auto;
-    width: 1320px;
-    height: 489px;
-    border-radius: 32px;
-    border: 1px solid #1EADE9;
-    background: #F1E9F5;
-    
-}
-.flexdiv{
-    display: flex;
-    justify-content: flex-start;
-}
-.cont2Satauri{
-    margin-left: 40px;
-    margin-top: 25px;
-    color: #000;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.popularGameDiv{
-    margin-top: 25px;
-    margin-left: 40px;
-}
-.popGame{
-    margin-right: 21px;
-    width: 400px;
-    height: 294px;
-    border-radius: 10px;
-}
-.nameDiv{
-    display: flex;
-    justify-content: space-around;
-} 
-.GameName{
-    color: #000;
-    font-family: Abhaya Libre ExtraBold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-.playerCount{
-    color: #72249C;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.section1{
-    
-    margin: 0 auto;
-    background-image: url("../pictures/game\ zone.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 80px;
-    margin-bottom: 64px;
-}
-.section{
-    margin-top: 80px;
-    margin-bottom: 64px;
-}
-.companyname{
-    color: #000;
-    font-family: Inter;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
-}
-.AboutCont{
- margin:0 auto;
- margin-top: 40px;
- margin-bottom: 40px;
- background-color: rgb(170, 163, 163);
- border-radius: 15%;
+.name {
+  color: #72249c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Zen Antique;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.aboutsat{
-    font-size: 66px;
-    display: flex;
-    justify-content: center;
+.headerUL {
+  display: flex;
+  align-items: center;
+  margin-top: 29px;
+  margin-left: 20px;
 }
-.aboutsat{
-    font-size: 66px;
-    color: #4E6FAE;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+li {
+  margin: 0px 10px;
 }
-.aboutpic{
-    margin: 10px;
-    width: 480px ;
-    height: 280px ;
+a {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
-.aboutP{
-    width: 300px;
-    height: 300px;
-    font-size: 20px;
-    font-style: normal;
+.activePage {
+  color: #735e5e;
 }
-.aboutDiv{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-around
+.li {
+  margin-right: 230px;
 }
-.aboutDiv2{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
+i {
+  margin-right: 20px;
 }
-.aboutH1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around
+.footCont {
+  padding-top: 100px;
+  max-width: 1440px;
+  width: 100%;
+  height: 320px;
+  background-color: #d9bde7;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
-.gaertianeba{
-    display: flex;
+.logodiv2 {
+  margin-left: 139px;
+  display: flex;
+  align-items: center;
 }
-.h1{
-    color: #000;
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.footerUL {
+  align-content: space-around;
+}
+.tbclog {
+  width: 130px;
+  height: 89px;
+}
+.sec1-cont {
+  max-width: 1400px;
+  width: 100%;
+  height: 462px;
+  /* background-image: url("../pictures/game\ zone.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec2-cont {
+  margin-bottom: 815px;
+  margin-left: 110px;
+  margin: 0 auto;
+  max-width: 1320px;
+  width: 100%;
+  height: 489px;
+  border-radius: 32px;
+  border: 1px solid #1eade9;
+  background: #f1e9f5;
+}
+.flexdiv {
+  display: flex;
+  justify-content: flex-start;
+}
+.cont2Satauri {
+  margin-left: 40px;
+  margin-top: 25px;
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.popularGameDiv {
+  margin-top: 25px;
+  margin-left: 40px;
+  display: flex;
+}
+.popGame {
+  margin-right: 21px;
+  width: 400px;
+  height: 294px;
+  border-radius: 10px;
+}
+.nameDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.GameName {
+  color: #000;
+  font-family: Abhaya Libre ExtraBold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.playerCount {
+  color: #72249c;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section1 {
+  margin: 0 auto;
+  background-image: url("../pictures/game\ zone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+  margin-bottom: 64px;
+}
+.section {
+  margin-top: 80px;
+  margin-bottom: 64px;
+  display: flex;
+}
+.companyname {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.AboutCont {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: rgb(170, 163, 163);
+  border-radius: 15%;
+}
+
+.aboutsat {
+  font-size: 66px;
+  display: flex;
+  justify-content: center;
+}
+.aboutsat {
+  font-size: 66px;
+  color: #4e6fae;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.aboutpic {
+  margin: 10px;
+  width: 480px;
+  height: 280px;
+}
+.aboutpic2 {
+  margin: 10px;
+}
+.aboutP {
+  width: 300px;
+  height: 300px;
+  font-size: 20px;
+  font-style: normal;
+}
+.aboutP2 {
+  width: 500px;
+  height: 300px;
+  font-size: 20px;
+  font-style: normal;
+}
+.aboutDiv {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.aboutDiv2 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutH1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.gaertianeba {
+  display: flex;
+}
+.h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 /* serevices */
 
-.sectionCont{
-    margin: 0 auto;
-    /* display: flex;
+.sectionCont {
+  margin: 0 auto;
+  /* display: flex;
     justify-content: center; */
-
 }
-.servicesSatauri{
-    color: #4E6FAE;
-    font-family: Helvetica Neue;
-    font-size: 66px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.sectionDiv{
-    display: flex;
-}
-.sectionH2{
-    color: #000;
-    font-family: Inter;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.button{
-    width: 100px;
-    height: 60px;
-    background-color: #7ac4c3;
-    border-radius: 50px;
+.servicesSatauri {
+  color: #4e6fae;
+  font-family: Helvetica Neue;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.serviceCont{
-    width: 800px;
-    height: 540px;
+.sectionDiv {
+  display: flex;
+}
+.sectionH2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button {
+  width: 100px;
+  height: 60px;
+  background-color: #7ac4c3;
+  border-radius: 50px;
+}
+
+.serviceCont {
+  width: 800px;
+  height: 540px;
 }
 /* contact */
-.contactSection{
-    background-color: #E7E7E7;;
+.contactSection {
+  background-color: #e7e7e7;
 }
-.mapCont{
-    margin: 0 auto;
-    margin-top: 31px;
-    background-color: #E7E7E7;;
-    /* max-width: 1660px; */
-    width: 100%;
-    height: 735px;
-    padding-top: 93px;
-    padding-left: 162px;
-    padding-right: 40px;
+.mapCont {
+  margin: 0 auto;
+  margin-top: 31px;
+  background-color: #e7e7e7;
+  max-width: 1660px;
+  width: 100%;
+  height: 735px;
+  padding-top: 93px;
+  padding-left: 162px;
+  padding-right: 40px;
 }
-.saerto{
-    display: inline-block;
+.saerto {
+  display: inline-block;
 }
-.contactSatauri{
-    box-sizing: border-box;
-    vertical-align: top;
-    display: inline-block;
-    color: #4E6FAE;
-    font-family: Helvetica Neue;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-right: 40px;
-    margin-bottom: 27px; 
-}
-
-iframe{
-    box-sizing: border-box;
-    vertical-align: top;
-    display: inline-block;
-    width: 944px;
-    height: 549px; 
-    
+.contactSatauri {
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-block;
+  color: #4e6fae;
+  font-family: Helvetica Neue;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 40px;
+  margin-bottom: 27px;
 }
 
-.misamarti{
-    display: inline-block;
-    color: #7E8898;
-    font-size: 20px;
+iframe {
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-block;
+  width: 944px;
+  height: 549px;
 }
 
-.qucha{   
-    display: inline-block;
-    font-size: 20px;
-    color: #3F4145;
+.misamarti {
+  display: inline-block;
+  color: #7e8898;
+  font-size: 20px;
 }
 
-.bolo{
-    margin-top: 23px;
-    margin-bottom: 11px;
+.qucha {
+  display: inline-block;
+  font-size: 20px;
+  color: #3f4145;
+}
+
+.bolo {
+  margin-top: 23px;
+  margin-bottom: 11px;
 }
